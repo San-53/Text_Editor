@@ -1,11 +1,21 @@
 .App {
-  text-align: center;
+  /* background-size: auto; */
+  /* background: linear-gradient(to left, #f8c0cc, #f2b6d1, #e6adda, #d2a8e5, #b4a5ef, #9eaff7, #87b7fa, #72bff9, #84cff4, #a1ddf0, #c2e9ee, #e4f4f3) fixed; */
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  /* overflow: hidden; */
+  scroll-behavior:smooth;
+}
+.html{
+  /* background: linear-gradient(to left, #f8c0cc, #f2b6d1, #e6adda, #d2a8e5, #b4a5ef, #9eaff7, #87b7fa, #72bff9, #84cff4, #a1ddf0, #c2e9ee, #e4f4f3) fixed; */
+  /* background-repeat: no-repeat; */
+  height: 100%;
+}
+.jodit-status-bar {
+  visibility: collapse;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,7 +42,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header_res {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.result {
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 16px;
+  margin-right: 40%;
+  margin-left: 29%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid black;
+  height: 25%;
+  width: 40%;
+  background-color: #3b3c3e;
+  color: white;
+  border-radius: 12px;
 }
