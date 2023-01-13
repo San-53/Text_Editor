@@ -6,7 +6,7 @@ const header = () => {
   return (
     <div className='header'>
       <h2 className='app_name'>
-        <a href='https://github.com/San-53/Text_editor_app.git' target="_blank">Rich_Text_Editor</a></h2>
+        <a href='https://github.com/San-53/Text_Editor.git' target="_blank">Rich_Text_Editor</a></h2>
 
       <span class="nav-links">
             <a href="https://github.com/San-53" target="_blank">
